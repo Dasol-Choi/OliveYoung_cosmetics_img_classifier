@@ -3,5 +3,5 @@
 ### dataset 정보
 ### Modeling
  * transfer learning model
- * mymodel
+ * my model
 ### 평가
