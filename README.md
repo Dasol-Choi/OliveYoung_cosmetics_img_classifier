@@ -14,6 +14,7 @@
  * my model
    * mobileNet의 depthwise 층을 활용한 경량화 모델
    * image size 1/2로 축소 (150, 200, 3) -> (75, 100, 3)
+   * mobileNet보다 total parameters 1/2 이상 감소
 ### 평가
  * transfer learning model
    * MobileNet, VGG16, Xception 세 가지 모델에서 0.978 ~ 0.99의 Test Accuracy 기록 
