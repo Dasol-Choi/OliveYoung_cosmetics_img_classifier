@@ -16,8 +16,8 @@
    * image size 1/2로 축소 (150, 200, 3) -> (75, 100, 3)
 ### 평가
  * transfer learning model
-  * MobileNet, VGG16, Xception 세 가지 모델에서 0.978 ~ 0.99의 Test Accuracy 기록 
-  * ResNet의 경우 상대적으로 저조한 0.48의 Test Accuracy 기록 
+   * MobileNet, VGG16, Xception 세 가지 모델에서 0.978 ~ 0.99의 Test Accuracy 기록 
+   * ResNet의 경우 상대적으로 저조한 0.48의 Test Accuracy 기록 
  * my model
-  * 경량화한 my model에서는 최대 0.978의 Test Accuracy 기록 
-  * Augmentation으로 train image를 늘려 학습을 진행해 보았지만, 정확도에 유의미한 개선은 없었음
+   * 경량화한 my model에서는 최대 0.978의 Test Accuracy 기록 
+   * Augmentation으로 train image를 늘려 학습을 진행해 보았지만, 정확도에 유의미한 개선은 없었음
