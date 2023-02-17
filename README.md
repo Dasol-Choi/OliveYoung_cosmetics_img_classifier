@@ -13,8 +13,11 @@
    * Xception
  * my model
    * mobileNet의 depthwise 층을 활용한 경량화 모델
-   * image size 1/2로 축소
+   * image size 1/2로 축소 (150, 200, 3) -> (75, 100, 3)
 ### 평가
- * MobileNet, VGG16, Xception 세 가지 모델에서 0.975 ~0.99의 Test Accuracy 기록 
- * ResNet의 경우 상대적으로 저조한 0.479의 Test Accuracy 기록 
- * 경량화한 my model에서는 최대 0.95의 Test Accuracy 기록 -> 추후 성능 향상 시도 예정 
+ * transfer learning model
+  * MobileNet, VGG16, Xception 세 가지 모델에서 0.978 ~ 0.99의 Test Accuracy 기록 
+  * ResNet의 경우 상대적으로 저조한 0.48의 Test Accuracy 기록 
+ * my model
+  * 경량화한 my model에서는 최대 0.978의 Test Accuracy 기록 
+  * Augmentation으로 train image를 늘려 학습을 진행해 보았지만, 정확도에 유의미한 개선은 없었음
