@@ -16,5 +16,5 @@
    * image size 1/2로 축소
 ### 평가
  * MobileNet, VGG16, Xception 세 가지 모델에서 0.975 ~0.99의 Test Accuracy 기록 
- * ResNet의 경우 상대적으로 저조한 0.479의 Accuracy 기록 
- * 경량화한 my model에서는 최대 0.95의 Accuracy 기록 -> 추후 성능 향상 시도 예정 
+ * ResNet의 경우 상대적으로 저조한 0.479의 Test Accuracy 기록 
+ * 경량화한 my model에서는 최대 0.95의 Test Accuracy 기록 -> 추후 성능 향상 시도 예정 
