@@ -20,9 +20,9 @@
    * MobileNet, VGG16, Xception 세 가지 모델에서 0.978 ~ 0.99의 Test Accuracy 기록 
    * ResNet의 경우 상대적으로 저조한 0.48의 Test Accuracy 기록 
    <br><br>
-   ![comparision](https://github.com/Dasol-Choi/OliveYoung_product_img_classifier/blob/main/transfer_learning_model/metric/comparision_of_models.png?raw=true){: width="50%" height="50%"}
+   <img src="https://github.com/Dasol-Choi/OliveYoung_product_img_classifier/blob/main/transfer_learning_model/metric/comparision_of_models.png?raw=true" width=50% height=50%/>
  * my model (updating)
    * 경량화한 my model에서는 최대 0.978의 Test Accuracy 기록 
    * Augmentation으로 train image를 늘려 학습을 진행해 보았지만, 정확도에 유의미한 개선은 없었음
    <br><br>
-   ![camparision](https://github.com/Dasol-Choi/OliveYoung_product_img_classifier/blob/main/my_model/metric/comparision_of_models.png?raw=true)
+   <img src="https://github.com/Dasol-Choi/OliveYoung_product_img_classifier/blob/main/my_model/metric/comparision_of_models.png?raw=true" width=90% height=90%/>
