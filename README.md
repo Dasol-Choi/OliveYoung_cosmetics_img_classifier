@@ -1,7 +1,6 @@
 # OliveYoung product classifier
 ### :small_blue_diamond: Overview
  * 올리브영 화장품 30종의 이미지를 분류하는 모델 설계 
- * 추후에 이미지로 화장품을 검색하는 어플리케이션 개발
 ### :small_blue_diamond: Dataset
  * 총 1,8000장의 올리브영 기초케어 화장품 이미지 (총 30종, 각 class 당 600장)
  * 10개의 서로 다른 올리브영 매장에서 직접 촬영한 이미지 60% + 웹사이트에서 크롤링한 이미지 40%로 구성
